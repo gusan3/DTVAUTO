@@ -1,21 +1,43 @@
+<?php include_once('main.php'); ?>
+
 <!DOCTYPE html>
+
 <html>
+
 <head>
-	<title>PHP Starter Application</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="stylesheet" href="style.css" />
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+
+<noscript><meta http-equiv="refresh" content="0; url=error.php?error_code=2"></noscript>
+
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery-cookies.js" type="text/javascript"></script>
+<script src="js/jquery-base64.js" type="text/javascript"></script>
+<?php include('js/header-js.php'); ?>
+<script src="js/main.js" type="text/javascript"></script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="img/favicon.ico">
+
+<title><?php echo global_title . ' - ' . global_organization; ?></title>
+
 </head>
+
 <body>
-	<table>
-		<tr>
-			<td style='width: 30%;'>
-				<img class = 'newappIcon' src='images/newapp-icon.png'>
-			</td>
-			<td>
-				<h1 id = "message"><?php echo "Hello World!"; ?></h1>
-				<p class='description'></p> Thanks for creating a <span class="blue">PHP Starter Application</span>.
-			</td>
-		</tr>
-	</table>
+
+<div id="notification_div"><div id="notification_inner_div"><div id="notification_inner_cell_div"></div></div></div>
+
+<div id="header_div"><?php include('header.php'); ?></div>
+
+<h1><?php echo global_title; ?></h1>
+<h2><?php echo global_organization; ?></h2>
+
+<div id="content_div"></div>
+
+<div id="preload_div">
+<img src="img/loading.gif" alt="Loading">
+</div>
+
 </body>
+
 </html>

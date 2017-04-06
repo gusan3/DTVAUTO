@@ -6,8 +6,4 @@ applications:
   name: DTVAUTO
   host: DTVAUTO
   disk_quota: 1024M
-  services:
-  - ClearDB MySQL Database-s7
-  - availability-monitoring-auto
-  env:
-    '''PHP_INI_SCAN_DIR''': '''.bp-config/php/conf.d'''
+  random-route: true
