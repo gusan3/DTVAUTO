@@ -175,7 +175,7 @@ function logout()
 	setcookie(global_cookie_prefix . '_user_password', '', time() - 3600);
 }
 
-/*function create_user($user_name, $user_email, $user_password, $user_secret_code)
+function create_user($user_name, $user_email, $user_password, $user_secret_code)
 {
 	if(validate_user_name($user_name) != true)
 	{
@@ -225,7 +225,7 @@ function logout()
 
 		return(1);
 	}
-}*/
+}
 
 function list_admin_users()
 {
