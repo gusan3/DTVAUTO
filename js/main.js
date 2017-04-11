@@ -32,7 +32,7 @@ function showlogin()
 	});
 }
 
-function shownew_user()
+/*function shownew_user()
 {
 	page_load();
 	div_hide('#content_div');
@@ -47,6 +47,7 @@ function showforgot_password()
 	$.get('login.php?forgot_password', function(data) { $('#content_div').html(data); div_fadein('#content_div'); page_loaded(); });
 	
 }
+*/
 
 function showreservations()
 {
