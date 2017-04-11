@@ -4,14 +4,7 @@
 
 <a href="#about">About</a>
 
-<?php
 
-if(isset($_SESSION['logged_in']))
-{
-	echo ' | <a href="#help">Help</a>';
-}
-
-?>
 
 </div><div id="header_inner_center_div">
 
