@@ -108,7 +108,7 @@ else
 	</p></form>
 
 	<p id="login_message_p"></p>
-	<p><a href="#forgot_password">Forgot password</a></p>
+	
 
 	</div></div>
 
