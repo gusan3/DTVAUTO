@@ -11,6 +11,6 @@ include_once('main.php');
 <p class="center_p"><a><font color="#55cfc4">Open Source Code</a></p></font>
 <p class="center_p"><a><font color="#1b065e">Original Code:</a></p></font>
 <p class="center_p"><a href="<?php echo global_project_website; ?>" target="_blank"><font color="#1b065e">Visit website</a></p></font>
-<p class="center_p"><a><font color="#044389">Adapted and Developed by: Gustavo A./ Gustavo M./ Guilherme G.</a></p></font>
+<p class="center_p"><a><font color="#044389">Adapted and Developed by: Gustavo Almeida / Gustavo Vieira / Guilherme Grande </a></p></font>
 
 </div></div>
