@@ -48,6 +48,7 @@ function showforgot_password()
 	
 }
 
+
 function showreservations()
 {
 	page_load('reservation');

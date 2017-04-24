@@ -4,14 +4,7 @@
 
 <a href="#about">About</a>
 
-<?php
 
-if(isset($_SESSION['logged_in']))
-{
-	echo ' | <a href="#help">Help</a>';
-}
-
-?>
 
 </div><div id="header_inner_center_div">
 
@@ -30,7 +23,7 @@ if(isset($_SESSION['logged_in']))
 
 if(isset($_SESSION['logged_in']))
 {
-	echo '<a href="#cp">Control panel</a> | <a href="#logout">Log out</a>';
+	echo '<a href="#logout">Log out</a>';
 }
 else
 {
