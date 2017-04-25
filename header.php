@@ -4,8 +4,6 @@
 
 <a href="#about">About</a>
 
-
-
 </div><div id="header_inner_center_div">
 
 <?php

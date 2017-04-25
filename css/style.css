@@ -313,8 +313,8 @@ table#reservation_table colgroup#reservation_day_colgroup
 
 table#reservation_table td#reservation_corner_td
 {
-	border-bottom: 1px solid #ccc;
-	border-right: 1px solid #ccc;
+	border-bottom: 10px solid #ccc;
+	border-right: 10px solid #ccc;
 	text-align: center;
 }
 

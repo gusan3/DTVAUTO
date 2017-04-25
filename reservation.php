@@ -38,10 +38,11 @@ elseif(isset($_GET['week']))
 
 	echo '<table id="reservation_table"><colgroup span="1" id="reservation_time_colgroup"></colgroup><colgroup span="7" id="reservation_day_colgroup"></colgroup>';
 
-	$days_row = '<tr><td id="reservation_corner_td"><input type="button" class="blue_button small_button" id="reservation_today_button" value="Today"></td><th class="reservation_day_th">Sunday</th><th class="reservation_day_th">Monday</th><th class="reservation_day_th">Tuesday</th><th class="reservation_day_th">Wednesday</th><th class="reservation_day_th">Thursday</th><th class="reservation_day_th">Friday</th><th class="reservation_day_th">Saturday</th></tr>';
+	$days_row = '<tr><th class="reservation_corner_td"><center>Timezone BR</center></th></td><th class="reservation_day_th"><center>Sunday</center></th><th class="reservation_day_th"><center>Monday</center></th><th class="reservation_day_th"><center>Tuesday</center></th><th class="reservation_day_th"><center>Wednesday</center></th><th class="reservation_day_th"><center>Thursday</center></th><th class="reservation_day_th"><center>Friday</center></th><th class="reservation_day_th"><center>Saturday</center></th></tr>';
 
+	
 	if($week == global_week_number)
-	{
+	{	
 		echo highlight_day($days_row);
 	}
 	else

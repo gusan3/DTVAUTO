@@ -221,7 +221,7 @@ function create_user($user_name, $user_email, $user_password, $user_secret_code)
 		$user_password = strip_salt($user_password);
 
 		setcookie(global_cookie_prefix . '_user_email', $user_email, time() + 3600 * 24 * intval(global_remember_login_days));
-		setcookie	(global_cookie_prefix . '_user_password', $user_password, time() + 3600 * 24 * intval(global_remember_login_days));
+		setcookie(global_cookie_prefix . '_user_password', $user_password, time() + 3600 * 24 * intval(global_remember_login_days));
 
 		return(1);
 	}
