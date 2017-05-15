@@ -215,6 +215,9 @@ div.reservation_time_div
 	border: 1px solid #4a8cf6;
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
+tr td:nth-child(2), tr td:last-child {
+  background-color: rgba(0,0,0,0.1);
+}
 
 div.reservation_time_cell_div
 {
@@ -323,6 +326,7 @@ table#reservation_table th.reservation_time_th
 	border-right: 1px solid #ccc;
 	font-weight: normal;
 	text-align: center;
+
 }
 
 table#reservation_table th.reservation_day_th
@@ -394,7 +398,7 @@ input#price_input
 
 input#reservation_today_button
 {
-	visibility: hidden;	
+	visibility: hidden;
 }
 
 /* Headlines */
